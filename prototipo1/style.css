@@ -1,0 +1,46 @@
+@charset "UTF-8";
+body{
+    background-image: url(Imagens/istockphoto-1330933047-1024x1024.jpg);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+     color: rgb(0, 0, 0);
+}
+ h1{
+     margin:auto;
+     text-align:center;
+     background-color: white;
+     border: solid white;
+     border-radius: 40px;
+     font-size: 35px;
+     max-width: 800px;
+ }
+ h2{
+     margin:auto;
+     background-color: white;
+     border: solid white;
+     border-radius: 40px;
+     font-size: 30px;
+     max-width: 700px;
+ }
+ iframe{
+    margin: 40px 0% 0% 0%;
+     aspect-ratio: 16/9;
+     width: 100%;
+     height: 100%;
+     max-width: 600px;
+     max-height: 600px;
+ }
+ img{
+    aspect-ratio: 16/9;
+    text-align: center;
+ }
+ #ladoalado{
+    aspect-ratio: 16/9;
+    float: left;
+    display:flex;
+    margin: 0 auto 0;
+}
+#centro{
+    margin: 0 auto;
+    width: 80%;
+}
